@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    font-family: sans-serif;
+}
+.pointer {
+    cursor: pointer;
+}
+
+.border-none2 {
+    border: none;
+}
+
+.active:active {
+    background-color: #39DB4A;
+    color: white;
+}
+
+.green-button {
+    @apply w-[180px] h-[60px] border rounded-full flex justify-center items-center text-[18px] gap-[5px] 
+    transition duration-200 bg-[#39DB4A] text-white border-[#39DB4A] 
+    hover:!text-[#39DB4A] hover:!bg-transparent hover:!border-[#39DB4A] 
+    active:!bg-[#39DB4A] active:!text-[#fff]
+}
+
+.right-box {
+    background-image: url('./src/assets/hero-org.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.right-box-c {
+    background-image: url('./src/assets/cooker.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+li {
+    cursor: pointer;
+}
