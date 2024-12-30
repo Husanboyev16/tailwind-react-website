@@ -14,7 +14,7 @@ const App = () => {
     <>
       {/* Header Start */}
       <div className="w-[1250px] max-w-[100%] h-[auto] div mx-auto pt-[50px]">
-        <nav className="w-[1250px] max-w-[100%] h-[auto] div mx-auto flex justify-between items-center">
+        <nav className="w-[1250px] lg:bg-red-600 max-w-[100%] h-[auto] div mx-auto flex justify-between items-center">
           {' '}
           {/* Navbar */}
           <a href="/" className="flex">
